@@ -3,7 +3,7 @@ This is a demonstration of how to create a linked-list in JS.
 
  *A linked list is a linear collection of data elements called nodes that “point” to the next node by means of a pointer.*
 
- 
+## Features ##
 - `append(value)` adds a new node containing value to the end of the list
 - `prepend(value)` adds a new node containing value to the start of the list
 - `size` returns the total number of nodes in the list
