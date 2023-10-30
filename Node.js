@@ -1,5 +1,5 @@
 // node factory here
-function createNode(value = null, nextNode = null) {
+export default function createNode(value = null, nextNode = null) {
   const node = {};
 
   node.value = value;
