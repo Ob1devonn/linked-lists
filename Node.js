@@ -1,5 +1,5 @@
 // node factory here
-export default function createNode(value, nextNode) {
+function createNode(value, nextNode) {
   const node = {};
 
   node.value = value || null;
@@ -8,4 +8,4 @@ export default function createNode(value, nextNode) {
   return node;
 }
 
-console.log(createNode(200, "node2"));
+export default createNode;

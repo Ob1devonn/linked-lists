@@ -1,6 +1,7 @@
-import createNode from "./Node";
+import createNode from "./Node.js";
 
 export default function createLinkedList(value = null, nextNode = null) {
+  let head = createNode(value, nextNode);
   // append(value)
   // prepend(value)
   // size
