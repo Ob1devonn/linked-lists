@@ -1,7 +1,11 @@
 import createNode from "./Node.js";
 
-export default function createLinkedList(value = null, nextNode = null) {
-  let head = createNode(value, nextNode);
+export default class LinkedList {
+  constructor() {
+    this.head = 1;
+    this.size = 0;
+  }
+
   // append(value)
   // prepend(value)
   // size
@@ -15,3 +19,7 @@ export default function createLinkedList(value = null, nextNode = null) {
   // insertAt(value, index)
   // removeAt(index)
 }
+
+const myList = new LinkedList();
+
+console.log(myList.head);
