@@ -1,9 +1,9 @@
 // node factory here
-export default function createNode(value = null, nextNode = null) {
+export default function createNode(value, nextNode) {
   const node = {};
 
-  node.value = value;
-  node.nextNode = nextNode;
+  node.value = value || null;
+  node.nextNode = nextNode || null;
 
   return node;
 }

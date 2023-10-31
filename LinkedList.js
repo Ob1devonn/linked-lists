@@ -1,8 +1,6 @@
 import createNode from "./Node";
 
 export default function createLinkedList(value = null, nextNode = null) {
-  const node = createNode(value, nextNode);
-
   // append(value)
   // prepend(value)
   // size
